@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ever Pizza</title>
+  <meta content="Chernyh Mihail" name="author">
+  <meta content="Spedito - All in one place" name="description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="format-detection" content="telephone=no">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link rel="shortcut icon" href="assets/imagenes/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/uikit.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link id="dm-dark" rel="stylesheet" href="assets/css/dark.css" >
+
+</head>
+
+<body class="page-home dm-dark">
+
+      <!-- Loader-->
+      <div id="page-preloader"><span class="spinner border-t_second_b border-t_prim_a"></span></div>
+      <!-- Loader end-->
+  
+  <div class="page-wrapper">
+    <header class="page-header">
+      <div class="page-header__top">
+        <div class="uk-container">
+          <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar="">
+            <div class="uk-navbar-left"><button class="uk-button" type="button" data-target="#offcanvas" data-uk-toggle data-uk-icon="menu"></button>
+              <ul class="uk-navbar-nav">
+
+                <li><a href="tel:3007735545">Ordenar en linea</a></li>
+
+              </ul>
+            </div>
+            <div class="uk-navbar-center">
+              <div class="logo">
+                <div class="logo__box"><a class="logo__link" href="index.html"> <img class="logo__img logo__img--full" src="assets/imagenes/logo.png" alt="logo"><img class="logo__img logo__img-small" src="assets/imagenes/logo.png" alt="logo"></a></div>
+              </div>
+            </div>
+            <div class="uk-navbar-right"><a class="uk-button" href="#Menu"> <span>Haz tu pizza</span><img class="uk-margin-small-left" src="assets/img/icons/pizza.png" alt="pizza"></a>
+              <ul class="uk-navbar-nav">
+
+                <li><a href="#Menu">Nuestro menú</a></li>
+            
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="page-header__bottom">
+        <div class="uk-container">
+          <div class="uk-navbar-container uk-navbar-transparent" data-uk-navbar="">
+            <div class="uk-navbar-left">
+              <div>
+                <div class="block-with-phone"><img src="assets/img/icons/delivery.svg" alt="delivery" data-uk-svg>
+                  <div> <span>Para domicilio</span><a href="tel:3007735545">300 773 55 45</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-navbar-center"></div>
+            <div class="uk-navbar-right">
+              <div class="other-links">
+                <ul class="other-links-list">
+                  <li><a href="#modal-full" data-uk-toggle><span data-uk-icon="search"></span></a></li>
+                </ul><a class="uk-button" href="#Menu"> <span>Haz tu pizza</span><img class="uk-margin-small-left" src="assets/img/icons/pizza.png" alt="pizza"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="page-main">
+      <div class="section-first-screen">
+        <div class="first-screen__slideshow">
+          <div data-uk-slideshow="min-height: 400; max-height: 785; autoplay: true">
+            <div class="uk-position-relative" tabindex="-1">
+              <ul class="uk-slideshow-items">
+                <li>
+                  <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left"><img src="assets/img/pages/home/slider-1.jpg" alt="slider-1" data-uk-cover></div>
+                </li>
+                <li>
+                  <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left"><img src="assets/img/pages/home/slider-2.jpg" alt="slider-2" data-uk-cover></div>
+                </li>
+                <li>
+                  <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left"><img src="assets/img/pages/home/slider-3.jpg" alt="slider-3" data-uk-cover></div>
+                </li>
+              </ul>
+            </div>
+            <div class="slideshow-dotnav uk-position-bottom-center">
+              <ul class="uk-slideshow-nav uk-dotnav uk-flex-center"></ul>
+            </div>
+          </div>
+        </div>
+        <div class="first-screen__content">
+          <div class="uk-container">
+            <nav class="category-nav">
+              <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+                <ul class="uk-navbar-nav">
+                  <li><a href="#Menu">
+                      <div class="nav-item"><span class="nav-item__icon"><img src="assets/img/icons/menu/pizzas-big.svg" alt="pizzas" data-uk-svg></span><span class="nav-item__text">pizzas </span></div>
+                    </a>
+                    <div class="uk-navbar-dropdown" data-uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                      <div class="uk-navbar-dropdown-grid uk-grid-small" data-uk-grid>
+                        <div class="uk-width-1-5">
+                          <div class="product-card-menu"><a class="product-card-menu__link" href="#Menu">
+                              <div class="product-card-menu__media"><img src="assets/img/products-menu/pizza-1.png" alt></div>
+                              <div class="product-card-menu__body">
+                                <div class="product-card-menu__title">Especial de la Casa</div>
+                              </div>
+                            </a></div>
+                        </div>
+                        <div class="uk-width-1-5">
+                          <div class="product-card-menu"><a class="product-card-menu__link" href="#Menu">
+                              <div class="product-card-menu__media"><img src="assets/img/products-menu/pizza-2.png" alt></div>
+                              <div class="product-card-menu__body">
+                                <div class="product-card-menu__title">Pollo con Champiñones</div>
+                              </div>
+                            </a></div>
+                        </div>
+                        <div class="uk-width-1-5">
+                          <div class="product-card-menu"><a class="product-card-menu__link" href="#Menu">
+                              <div class="product-card-menu__media"><img src="assets/img/products-menu/pizza-3.png" alt></div>
+                              <div class="product-card-menu__body">
+                                <div class="product-card-menu__title">Pizza Vegetariana</div>
+                              </div>
+                            </a></div>
+                        </div>
+                        <div class="uk-width-2-5">
+                          <ul class="uk-nav">
+                            <li class="uk-nav-header">Más Pizzas</li>
+                            <li><a href="#Menu">Especial de la Casa</a></li>
+                            <li><a href="#Menu">Pollo con Champiñones</a></li>
+                            <li><a href="#Menu">Salami</a></li>
+                            <li><a href="#Menu">Jamón y Queso</a></li>
+                            <li><a href="#Menu">Vegetariana</a></li>
+                            <li><a href="#Menu">Hawaiana</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="#Menu">
+                      <div class="nav-item"><span class="nav-item__icon"><img src="assets/img/icons/menu/noodles-big.svg" alt="noodles" data-uk-svg></span><span class="nav-item__text">Desgranados</span></div>
+                    </a></li>
+                  <li><a href="#Menu">
+                      <div class="nav-item"><span class="nav-item__icon"><img src="assets/img/icons/menu/salads-big.svg" alt="salads" data-uk-svg></span><span class="nav-item__text">Asados</span></div>
+                    </a></li>
+                  <li><a href="#Menu">
+                      <div class="nav-item"><span class="nav-item__icon"><img src="assets/img/icons/menu/drinks-big.svg" alt="drinks" data-uk-svg></span><span class="nav-item__text">Bebidas</span></div>
+                    </a></li>
+                </ul>
+              </nav>
+            </nav>
+            <div class="first-screen__box">
+              <h2 class="first-screen__title">¡Ordene hoy y disfruta!</h2>
+              <p class="first-screen__desc">Coma comidas rápidas, deliciosas y sabrosas con sabores reales</p><a class="uk-button" href="#Menu">Ver nuestro menú</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-about">
+        <div class="uk-section uk-container">
+          <div class="uk-grid uk-child-width-1-2@m uk-flex-middle" data-uk-grid>
+            <div class="uk-text-center"><img src="assets/img/pages/home/img-about.png" alt=""></div>
+            <div>
+              <div class="section-title burger wave">
+                <h3 class="uk-h3">Cocinando Con Pasión</h3>
+              </div>
+              <div class="section-content">
+                <p>Comprometidos con entregar el mejor servicio para nuestra comunidad entregandoles comida con alta calidad que impacte tanto en sus paladares como en sus mentes haciendolos vivir nuevas experiencias.</p>
+                <p>Conocenos y adentrate en está experiencia culinaria.</p>
+<!--                 <div class="uk-margin-medium-top"><a class="uk-button" href="page-blog-article.html"><span>Leer Más</span><img class="uk-margin-small-left" src="assets/img/icons/ice-cream.svg" alt=""></a></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-features">
+        <div class="uk-section uk-container">
+          <div class="uk-grid uk-child-width-1-3@s" data-uk-grid>
+            <div>
+              <div class="feature-item">
+                <div class="feature-item__icon"><img src="assets/img/icons/feature-1.svg" alt="feature"></div>
+                <div class="feature-item__title">Ingredientes Frescos</div>
+                <div class="feature-item__desc">Todos nuestros productos son frescos y de la mejor calidad</div>
+              </div>
+            </div>
+            <div>
+              <div class="feature-item">
+                <div class="feature-item__icon"><img src="assets/img/icons/feature-2.svg" alt="feature"></div>
+                <div class="feature-item__title">Cocineros Especializados</div>
+                <div class="feature-item__desc">Satisfacción garantizada, deleita tu paladar con la destreza de nuestros chefs de primera categoría.</div>
+              </div>
+            </div>
+            <div>
+              <div class="feature-item">
+                <div class="feature-item__icon"><img src="assets/img/icons/feature-3.svg" alt="feature"></div>
+                <div class="feature-item__title">Entrega en 30 minutos</div>
+                <div class="feature-item__desc">¡Rápido y sabroso! Entregas en 30 minutos, sin esperas.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-special-deals" id="Menu">
+        <div class="uk-section uk-container">
+          <div class="section-title section-title--center wave french-fries">
+            <h3 class="uk-h3">Nuestro Menú</h3>
+          </div>
+
+          <!-- Section del Menu -->
+          <div class="section-content" >
+            <ul class="uk-subnav uk-flex-center" data-uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium; swiping: false; active: 1">
+              <!-- <li><a href="#">Burgers</a></li> -->
+              <li><a href="#">Desgranados</a></li>
+              <li><a href="#">Pizzas</a></li>
+              <li><a href="#">Asados</a></li>
+              <li><a href="#">Bebidas</a></li>
+            </ul>
+            <ul class="uk-switcher">
+              <li>
+
+                 <!-- Section de desgranados -->
+                <div data-uk-slider>
+                  <div class="uk-position-relative">
+                    <div class="uk-slider-container uk-light">
+                      <ul class="uk-slider-items uk-grid uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l" style="justify-content: center;">
+                        <!-- desgranado de embutidos-->
+                        <li>
+                          <div class="product-item" >
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/desgranados/PicadaX2.png"><img src="assets/imagenes/menu/desgranados/picada.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Chorizo; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Desgranado de Chorizo</a></div>
+                                  <div class="product-item__desc">
+                                    Chorizo, Butifarra, Bollo Blanco,Una cama de lechuga,Rappi Papas &amp; Salsas de la casa</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$16.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" target="black_" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20un%20desgranado%20de%20Chorizo">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- desgranado de Carne-->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/desgranados/PicadaX2.png"><img src="assets/imagenes/menu/desgranados/picada.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Carne; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Desgranado de Carne</a></div>
+                                  <div class="product-item__desc">Carne, Chorizo, Butifarra, Bollo Blanco,Una cama de lechuga,Rappi Papas &amp; Salsas de la casa</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$16.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20un%20desgranado%20de%20carne">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                         <!-- desgranado de Pollo-->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/desgranados/PicadaX2.png"><img src="assets/imagenes/menu/desgranados/picada.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Pollo; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Desgranado de Pollo</a></div>
+                                  <div class="product-item__desc">  Pollo, Chorizo, Butifarra, Bollo Blanco,Una cama de lechuga,Rappi Papas &amp; Salsas de la casa</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$16.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20un%20desgranado%20de%20pollo"  target="_blank">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="uk-visible@l"><a class="uk-position-top-left-out" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a><a class="uk-position-top-right-out" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a></div>
+                    <div class="uk-hidden@l">
+                      <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-medium-top"></ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fin de Section de Desgranados -->
+
+              </li>
+              <li>
+                <!-- Section de Pizzas -->
+                <div data-uk-slider>
+                  <div class="uk-position-relative">
+                    <div class="uk-slider-container uk-light">
+                      <ul class="uk-slider-items uk-grid uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l">
+
+
+
+                        <!-- La especial de la casa -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/pizza/EspecialX2.png"><img src="assets/imagenes/menu/pizza/Especial.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <div class="product-item__type"></div>
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: La Especial; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">La Especial</a></div>
+                                  <div class="product-item__desc">
+                                    <ul>
+                                      <li>Queso</li>
+                                      <li>Salsa de la casa</li>
+                                      <li>Cebolla</li>
+                                      <li>Pimentón</li>
+                                      <li>Jamón</li>
+                                      <li>Salami</li>
+                                      <li>Pollo</li>
+                                      <li>Chorizo</li>
+                                      <li>Butifarra</li>
+                                      <li>Piña</li>
+                                      <li>Ajo</li>
+                                    </ul>
+                                  </div>
+                                  <div class="product-item__select">
+                                    <div class="select-box select-box--thickness">
+                                      <ul>
+                                        <li><label><input type="radio" id="personal"  name="thickness-1" onclick="PrecioEspecial('personal')" checked="checked" /><span>Personal</span></label></li>
+                                        <li><label><input type="radio" id="small"  name="thickness-1" onclick="PrecioEspecial('small')" /><span>Small</span></label></li>
+                                        <li><label><input type="radio" id="medium"  name="thickness-1" onclick="PrecioEspecial('medium')"/><span>Medium</span></label></li>
+                                        <li><label><input type="radio" id="large"  name="thickness-1" onclick="PrecioEspecial('large')"/><span>Large</span></label></li>
+                                      </ul>
+                                    </div>
+                                    <div class="select-box select-box--size">
+                                      <ul>
+                                        <li><label><input type="radio" name="size-1" checked="checked"/><span>26 cm </span></label></li>
+                                        <li><label><input type="radio" name="size-1" /><span>30 cm </span></label></li>
+                                        <li><label><input type="radio" name="size-1" /><span>36 cm</span></label></li>
+                                        <li><label><input type="radio" name="size-1" /><span>41 cm</span></label></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span id="especial" class="value">$25.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20una%20Pizza%20Especial">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <!-- Salami -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/pizza/SalamiX2.png"><img src="assets/imagenes/menu/pizza/Salami.png" alt="Neapolitan Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <div class="product-item__type spicy"></div>
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Pizza de Salami; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Pizza de Salami</a></div>
+                                  <div class="product-item__desc">
+                                    <ul>
+                                      <li>Queso</li>
+                                      <li>Salsa de la casa</li>
+                                      <li>Salamí</li>
+                                      <li>Oregano</li>
+                                    </ul>
+                                  </div>
+                                  <div class="product-item__select">
+                                    <div class="select-box select-box--thickness">
+                                      <ul>
+                                        <li><label><input type="radio" id="personal"  name="thickness-2" onclick="PrecioSalami('personal')" checked="checked" /><span>Personal</span></label></li>
+                                        <li><label><input type="radio" id="small"  name="thickness-2" onclick="PrecioSalami('small')" /><span>Small</span></label></li>
+                                        <li><label><input type="radio" id="medium"  name="thickness-2" onclick="PrecioSalami('medium')"/><span>Medium</span></label></li>
+                                        <li><label><input type="radio" id="large"  name="thickness-2" onclick="PrecioSalami('large')"/><span>Large</span></label></li>
+                                      </ul>
+                                    </div>
+                                    <div class="select-box select-box--size">
+                                      <ul>
+                                        <li><label><input type="radio" name="size-2" checked="checked" /><span>26 cm </span></label></li>
+                                        <li><label><input type="radio" name="size-2" /><span>30 cm </span></label></li>
+                                        <li><label><input type="radio" name="size-2" /><span>36 cm</span></label></li>
+                                        <li><label><input type="radio" name="size-2" /><span>41 cm</span></label></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value" id="salami">$25.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20una%20Pizza%20de%20Salamí">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <!-- Pollo con Champiñones -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/pizza/PolloChampiñonesX2.pngr"><img src="assets/imagenes/menu/pizza/PolloChampiñones.png" alt="Hot n Spicy Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <div class="product-item__type vegetarian"></div>
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Pollo Champiñones; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Pollo Champiñones</a></div>
+                                  <div class="product-item__desc"><!-- Spicy Cheese pizza with topping of beef pepperoni &amp; sauce -->
+                                    <ul>
+                                      <li>Queso</li>
+                                      <li>Salsa de la casa</li>
+                                      <li>Pollo</li>
+                                      <li>Champiñones</li>
+                                    </ul>
+                                  </div>
+                                  <div class="product-item__select">
+                                    <div class="select-box select-box--thickness">
+                                      <ul>
+                                        <li><label><input type="radio" name="thickness-3" onclick="PrecioPollo('personal')"   checked="checked" /><span>Personal</span></label></li>
+                                        <li><label><input type="radio" name="thickness-3" onclick="PrecioPollo('small')"/><span>Small</span></label></li>
+                                        <li><label><input type="radio" name="thickness-3" onclick="PrecioPollo('medium')"/><span>Medium</span></label></li>
+                                        <li><label><input type="radio" name="thickness-3" onclick="PrecioPollo('large')"/><span>Large</span></label></li>
+                                      </ul>
+                                    </div>
+                                    <div class="select-box select-box--size">
+                                      <ul>
+                                        <li><label><input type="radio" name="size-3" checked="checked"/><span>26 cm </span></label></li>
+                                        <li><label><input type="radio" name="size-3" /><span>30 cm </span></label></li>
+                                        <li><label><input type="radio" name="size-3" /><span>36 cm</span></label></li>
+                                        <li><label><input type="radio" name="size-3" /><span>41 cm</span></label></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value" id="pollo">$25.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20una%20Pizza%20de%20Pollo%20con%20Champiñones">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <!-- Jamon y Queso -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/pizza/JamonQuesoX2.png"><img src="assets/imagenes/menu/pizza/JamonQueso.png" alt="Chees’on Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <div class="product-item__type "></div>
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Jamon y Queso; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Jamon y Queso</a></div>
+                                  <div class="product-item__desc">
+                                    <ul>
+                                      <li>Queso</li>
+                                      <li>Salsa de la casa</li>
+                                      <li>Jamon</li>
+                                      <li>Oregano</li>
+                                    </ul>
+                                  </div>
+                                  <div class="product-item__select">
+                                    <div class="select-box select-box--thickness">
+                                      <ul>
+                                        <li><label><input type="radio" id="personal" name="thickness-4" onclick="PrecioJamon('personal')" checked="checked" /><span>Personal</span></label></li>
+                                        <li><label><input type="radio" id="small" name="thickness-4" onclick="PrecioJamon('small')"/><span>Small</span></label></li>
+                                        <li><label><input type="radio" id="medium" name="thickness-4" onclick="PrecioJamon('medium')"/><span>Medium</span></label></li>
+                                        <li><label><input type="radio" id="large" name="thickness-4" onclick="PrecioJamon('large')"/><span>Large</span></label></li>
+                                      </ul>
+                                    </div>
+                                    <div class="select-box select-box--size">
+                                      <ul>
+                                        <li><label><input type="radio" name="size-4" checked="checked"/><span>26 cm </span></label></li>
+                                        <li><label><input type="radio" name="size-4" /><span>30 cm </span></label></li>
+                                        <li><label><input type="radio" name="size-4" /><span>36 cm</span></label></li>
+                                        <li><label><input type="radio" name="size-4" /><span>41 cm</span></label></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value" id="jamon">$25.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default"  target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20una%20Pizza%20de%20Jamon%20y%20Queso">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <!-- Vegetariana -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/pizza/VegetarianaX2.png"><img src="assets/imagenes/menu/pizza/Vegetariana.png" alt="Chees’on Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <div class="product-item__type vegetarian"></div>
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Pizza Vegetariana; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Pizza Vegetariana</a></div>
+                                  <div class="product-item__desc">
+                                    <ul>
+                                      <li>Queso</li>
+                                      <li>Salsa de la casa</li>
+                                      <li>Pimemton</li>
+                                      <li>Cebolla</li>
+                                      <li>Ajo</li>
+                                      <li>Tomate</li>
+                                      <li>Champiñones</li>
+                                    </ul>
+                                  </div>
+                                  <div class="product-item__select">
+                                    <div class="select-box select-box--thickness">
+                                      <ul>
+                                        <li><label><input type="radio" id="personal" name="thickness-5"  onclick="PrecioVegetariana('personal')"  checked="checked" /><span>Personal</span></label></li>
+                                        <li><label><input type="radio" id="small" name="thickness-5"  onclick="PrecioVegetariana('small')"/><span>Small</span></label></li>
+                                        <li><label><input type="radio" id="medium" name="thickness-5" onclick="PrecioVegetariana('medium')" /><span>Medium</span></label></li>
+                                        <li><label><input type="radio" id="large" name="thickness-5"  onclick="PrecioVegetariana('large')"/><span>Large</span></label></li>
+                                      </ul>
+                                    </div>
+                                    <div class="select-box select-box--size">
+                                      <ul>
+                                        <li><label><input type="radio" name="size-5" checked="checked" /><span>26 cm </span></label></li>
+                                        <li><label><input type="radio" name="size-5" /><span>30 cm </span></label></li>
+                                        <li><label><input type="radio" name="size-5" /><span>36 cm</span></label></li>
+                                        <li><label><input type="radio" name="size-5" /><span>41 cm</span></label></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value" id="vegetariana" >$25.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20una%20Pizza%20Vegetariana">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <!-- Hawaiana -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/pizza/HawaianaX2.png"><img src="assets/imagenes/menu/pizza/Hawaiana.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <div class="product-item__type "></div>
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Hawaiana; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Hawaiana</a></div>
+                                  <div class="product-item__desc">
+                                    <ul>
+                                      <li>Queso</li>
+                                      <li>Salsa de la casa</li>
+                                      <li>Jamon</li>
+                                      <li>Piña</li>
+                                    </ul>
+                                  </div>
+                                  <div class="product-item__select">
+                                    <div class="select-box select-box--thickness">
+                                      <ul>
+                                        <li><label><input type="radio" id="personal" name="thickness-6"  onclick="PrecioHawaiana('personal')" checked="checked" /><span>Personal</span></label></li>
+                                        <li><label><input type="radio" id="small" name="thickness-6"  onclick="PrecioHawaiana('small')"/><span>Small</span></label></li>
+                                        <li><label><input type="radio" id="medium" name="thickness-6"  onclick="PrecioHawaiana('medium')"/><span>Medium</span></label></li>
+                                        <li><label><input type="radio" id="large" name="thickness-6"  onclick="PrecioHawaiana('large')"/><span>Large</span></label></li>
+                                      </ul>
+                                    </div>
+                                    <div class="select-box select-box--size">
+                                      <ul>
+                                        <li><label><input type="radio" name="size-6" checked="checked" /><span>26 cm </span></label></li>
+                                        <li><label><input type="radio" name="size-6" /><span>30 cm </span></label></li>
+                                        <li><label><input type="radio" name="size-6" /><span>36 cm</span></label></li>
+                                        <li><label><input type="radio" name="size-6" /><span>41 cm</span></label></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value" id="hawaiana">$25.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola! Quisiera ordenar una Pizza Hawaiana">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+6
+
+                      </ul>
+
+                    </div>
+                    <div class="uk-visible@l"><a class="uk-position-top-left-out" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a><a class="uk-position-top-right-out" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a></div>
+                    <div class="uk-hidden@l">
+                      <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-medium-top"></ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fin de la section de Pizzas -->
+              </li>
+
+              <li>
+                <!-- Section de Asados -->
+                <div data-uk-slider> 
+                  <div class="uk-position-relative">
+                    <div class="uk-slider-container uk-light">
+                      <ul class="uk-slider-items uk-grid uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l" style=" justify-content: center;">
+
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/asados/asado-carne.png"><img src="assets/imagenes/menu/asados/asado-carne.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Carne de Alta Calidad; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Asado de Carne</a></div>
+                                  <div class="product-item__desc">Deleitate con un corte excelente y la crocancia de nuestras papas</div>
+                                  <div class="product-item__select">
+                              </div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$26.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20un%20Asado%20de%20Carne">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+
+
+
+                      </ul>
+                    </div>
+                    <div class="uk-visible@l"><a class="uk-position-top-left-out" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a><a class="uk-position-top-right-out" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a></div>
+                    <div class="uk-hidden@l">
+                      <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-medium-top"></ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fin de la Section de Asados -->
+              </li>
+
+              <li>
+                <!-- Section Bebidas -->
+                <div data-uk-slider>
+                  <div class="uk-position-relative">
+                    <div class="uk-slider-container uk-light">
+                      <ul class="uk-slider-items uk-grid uk-grid-small uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l">
+
+
+                        <!-- Margarita de fresas -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/MargaritaFresaX2.png"><img src="assets/imagenes/menu/bebidas/MargaritaFresa.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Margarita de Fresa; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Margarita de Fresa</a></div>
+                                  <div class="product-item__desc">
+                                    ¡Disfruta de la deliciosa y refrescante Margarita de Fresa!</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$13.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20una%20Margarita%20de%20Fresa">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Margarita -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/MargaritaX2.png"><img src="assets/imagenes/menu/bebidas/Margarita.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Margarita de Fresa; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Margarita</a></div>
+                                  <div class="product-item__desc"> ¡Déjate seducir por la irresistible Margarita, la reina de los cócteles! </div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$12.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20una%20Margarita">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Cuba Libre -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/CubaLibreX2.png"><img src="assets/imagenes/menu/bebidas/CubaLibre.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Corona; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Cuba Libre</a></div>
+                                  <div class="product-item__desc">¡Descubre la esencia de la fiesta con nuestro irresistible Cuba Libre! </div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$10.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20un%20Cuba%20Libre">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Gymtonic -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/GymtoniX2.png"><img src="assets/imagenes/menu/bebidas/Gymtoni.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Gin Tonic; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Gin Tonic</a></div>
+                                  <div class="product-item__desc"> ¡Déjate seducir por la elegancia y el sabor sofisticado de nuestro Gin Tonic! </div>
+                              <div class="product-item__info">  
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$13.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20un%20Gymtonic">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Agua -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/AguaX2.png"><img src="assets/imagenes/menu/bebidas/Agua.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Agua; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Agua Cristal</a></div>
+                                  <div class="product-item__desc">
+                                    Refrescate con un delicioso sorbo de agua pura</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$2.500</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera pedir una botella de Agua ">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Aguila Negra -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/AguilaX2.png"><img src="assets/imagenes/menu/bebidas/Aguila.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Aguila Negra; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Aguila Negra</a></div>
+                                  <div class="product-item__desc">
+                                    Disfruta la intensidad y el sabor inconfundible de Águila Negra</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$3.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera pedir una Aguila Negra">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Aguila Light -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/aguilalightX2.png"><img src="assets/imagenes/menu/bebidas/aguilalight icon.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Aguila Light; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Aguila light</a></div>
+                                  <div class="product-item__desc">
+                                    Disfruta de la refrescante ligereza de Águila Light, la cerveza perfecta para aquellos que buscan equilibrio sin sacrificar el sabor.</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$3.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera pedir una Aguila Light">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Corona -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/CoronaX2.png">
+                                      <img src="assets/imagenes/menu/bebidas/Corona.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Corona; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Corona</a></div>
+                                  <div class="product-item__desc">
+                                    Descubre el espíritu veraniego y la frescura inigualable de Corona, la cerveza que te transporta a la playa con cada sorbo.</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">3.500</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar una Corona">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Gymtonic -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/GymtoniX2.png"><img src="assets/imagenes/menu/bebidas/Gymtoni.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Gymtonic; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Gymtonic</a></div>
+                                  <div class="product-item__desc"> ¡Descubre el cóctel revolucionario que fusiona el mundo del fitness con el placer de los sabores! </div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$12.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20un%20desgranado%20de%20Chorizo">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Jugo de Fresa -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/JugoFresaX2.png"><img src="assets/imagenes/menu/bebidas/JugoFresa.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Jugo de Fresa; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Jugo de Fresa</a></div>
+                                  <div class="product-item__desc">
+                                    Deléitate con la dulzura natural y el sabor vibrante del jugo de fresas, una explosión de frescura y vitalidad en cada sorbo.</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$7.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20un Jugo de Fresas">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Ron Medellín -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/RomMedellinX2.png"><img src="assets/imagenes/menu/bebidas/RomMedellin.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Ron Medellín; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Ron Medellín</a></div>
+                                  <div class="product-item__desc">
+                                    Chorizo, Butifarra, Bollo Blanco,Una cama de lechuga,Rappi Papas &amp; Salsas de la casa</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$30.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20un%20desgranado%20de%20Chorizo">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Limonada  -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/LimonadaX2.png"><img src="assets/imagenes/menu/bebidas/Limonada.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Limonada; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Limonada</a></div>
+                                  <div class="product-item__desc">
+                                    Refresca tus sentidos con nuestra limonada casera, una combinación perfecta de limones frescos y dulce natural que te hará despejarte de este calor insoportable.</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$7.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20un%20desgranado%20de%20Chorizo">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Hit Personal -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/HitPersonalX2.png"><img src="assets/imagenes/menu/bebidas/HitPersonal.png" alt="Foto Hit Personal" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Hit Personal; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Hit Personal 500ml</a></div>
+                                  <div class="product-item__desc">
+                                    Experimenta la explosión de sabor y energía con nuestro jugo Hit, la opción perfecta para revitalizarte y disfrutar de un impulso refrescante en cualquier momento del día.</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$3.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20un Jugo Hit">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Soda -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/SodaX2.png"><img src="assets/imagenes/menu/bebidas/Soda.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Soda; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Soda</a></div>
+                                  <div class="product-item__desc">
+                                    Disfruta de la burbujeante y refrescante experiencia de nuestra soda, la compañera perfecta para saciar tu sed y añadir un toque de efervescencia a tus momentos más especiales.</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$4.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20una Soda">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Coronita -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/CoronitaX2.png"><img src="assets/imagenes/menu/bebidas/Coronita.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Coronita; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Coronita</a></div>
+                                  <div class="product-item__desc">
+                                    Disfruta el sabor de está maravillosa bebida y refrescate.
+                                    <br>
+                                    La puedes beber sola o michelada.
+                                    </div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$3.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20un%20desgranado%20de%20Chorizo">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Heineken -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/HeinekenX2.png"><img src="assets/imagenes/menu/bebidas/Heineken.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Heineken; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Heineken</a></div>
+                                  <div class="product-item__desc">
+                                    Descubre el sabor distintivo y la calidad excepcional de Heineken, la cerveza que ha conquistado el mundo con su aroma fresco, suave amargor y su característico color dorado.</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$3.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20una Heineken">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Postoboon Litro -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/postobonLitroX2.png"><img src="assets/imagenes/menu/bebidas/postobonLitro.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <!-- <div class="product-item__type spicy"></div> -->
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Chorizo; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Postobon 1.5ml</a></div>
+                                  <div class="product-item__desc">
+                                    Disfruta de la gaseosa Postobón 1.5L, una explosión de sabores refrescantes que te deleitará en cada sorbo.</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$7.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar%20una Litro y medio">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- Postobon Personal -->
+                        <li>
+                          <div class="product-item">
+                            <div class="product-item__box">
+                              <div class="product-item__intro">
+                                <div class="product-item__not-active">
+                                  <div class="product-item__media">
+                                    <div class="uk-inline-clip uk-transition-toggle uk-light" data-uk-lightbox="data-uk-lightbox"><a href="assets/imagenes/menu/bebidas/PostobonPersonalX2.png"><img src="assets/imagenes/menu/bebidas/PostobonPersonal.png" alt="Creamy Melt Pizza" />
+                                        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary"></div>
+                                        <div class="uk-position-center"><span class="uk-transition-fade" data-uk-icon="icon: search;"></span></div>
+                                      </a></div>
+                                    <div class="product-item__whish"><i class="fas fa-heart"></i></div>
+                                    <div class="product-item__tooltip" data-uk-tooltip="title: Postobon Personal; pos: bottom-right"><i class="fas fa-info-circle"></i></div>
+                                  </div>
+                                  <div class="product-item__title"><a href="#Menu">Postobon Personal</a></div>
+                                  <div class="product-item__desc">
+                                    Disfruta de la gaseosa Postobón 400ml, una explosión de sabores refrescantes en un tamaño perfecto para llevar contigo a donde quieras.</div>
+                              <div class="product-item__info">
+                                <div class="product-item__price"> <span>Precio: </span><span class="value">$3.000</span></div>
+                                <div class="product-item__addcart"> <a class="uk-button uk-button-default" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20ordenar una Postobon Personal">Comprar<span data-uk-icon="cart"></span></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+
+                      </ul>
+                    </div>
+                    <div class="uk-visible@l"><a class="uk-position-top-left-out" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a><a class="uk-position-top-right-out" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a></div>
+                    <div class="uk-hidden@l">
+                      <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-medium-top"></ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fin de la Section de Bebidas  -->
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Fin de la Section de Menu -->
+
+      <div class="section-steps">
+        <div class="uk-section">
+          <div class="uk-container">
+            <div class="section-title"> <span>Ordene su propia comida sabrosa</span>
+              <h3 class="uk-h3">Se tarda 2 minutos en hacer su Propia pizza sabrosa <br>y ordena con nosotros</h3>
+            </div>
+          </div>
+          <div class="uk-container-expand">
+            <div class="section-content">
+              <div class="uk-grid" data-uk-grid>
+                <div class="uk-width-1-3@m"><img src="assets/img/pages/home/img-steps.png" alt=""></div>
+                <div class="uk-width-2-3@m">
+                  <div data-uk-slider="finite: true">
+                    <div class="uk-position-relative">
+                      <div class="uk-slider-container">
+                        <ul class="uk-slider-items uk-grid uk-grid-medium uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-3@l uk-child-width-1-4@xl">
+                          <li>
+                            <div class="step-item step-item--1">
+                              <div class="step-item__icon"><img src="assets/img/pages/home/step-1.png" alt="img-step"></div>
+                              <div class="step-item__numb">Paso 1</div>
+                              <div class="step-item__title">Elige la corteza</div>
+                              <!-- <div class="step-item__desc">Magna aliqua enim miniy veniam quisya nostr exercitation ullamco laboris nisiut sed ipsum.</div> -->
+                            </div>
+                          </li>
+                          <li>
+                            <div class="step-item step-item--2">
+                              <div class="step-item__icon"><img src="assets/img/pages/home/step-2.png" alt="img-step"></div>
+                              <div class="step-item__numb">Paso 2</div>
+                              <div class="step-item__title">Selecciona tu Salsa</div>
+                              <!-- <div class="step-item__desc">Magna aliqua enim miniy veniam quisya nostr exercitation ullamco laboris nisiut sed ipsum.</div> -->
+                            </div>
+                          </li>
+                          <li>
+                            <div class="step-item step-item--3">
+                              <div class="step-item__icon"><img src="assets/img/pages/home/step-3.png" alt="img-step"></div>
+                              <div class="step-item__numb">Paso 3</div>
+                              <div class="step-item__title">Añadir un poco de queso</div>
+                              <!-- <div class="step-item__desc">Magna aliqua enim miniy veniam quisya nostr exercitation ullamco laboris nisiut sed ipsum.</div> -->
+                            </div>
+                          </li>
+                          <li>
+                            <div class="step-item step-item--4">
+                              <div class="step-item__icon"><img src="assets/img/pages/home/step-4.png" alt="img-step"></div>
+                              <div class="step-item__numb">Paso 4</div>
+                              <div class="step-item__title">Añadir Toppings adicionales</div>
+                              <!-- <div class="step-item__desc">Magna aliqua enim miniy veniam quisya nostr exercitation ullamco laboris nisiut sed ipsum.</div> -->
+                            </div>
+                          </li>
+                        </ul>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-medium-top"></ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="uk-margin-medium-top uk-text-center"> <a class="uk-button" href="#Menu"><span>¡CREA Y ORDENA AHORA!</span><img class="uk-margin-small-left" src="assets/img/icons/ice-cream.svg" alt=""></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-recommend">
+        <div class="uk-section uk-container">
+          <div class="section-title section-title--center wave french-fries">
+            <h3 class="uk-h3">Recomendar comida sabrosa</h3>
+          </div>
+          <div class="section-content">
+            <div class="uk-margin-medium-top" data-uk-slider>
+              <div class="uk-position-relative">
+                <div class="uk-slider-container">
+                  <ul class="uk-slider-items uk-grid uk-grid-medium uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-3@xl uk-child-width-1-3@xl" data-uk-height-match=".product-card__intro">
+                    <li>
+                      <div class="product-card">
+                        <div class="product-card__media"> <a ><img class="uk-width-1-1" src="assets/img/products/recommend-1.jpg" alt="The Spruce Burger" /></a></div>
+                        <div class="product-card__body">
+                          <div class="product-card__title"> <a >Super Pizza Combinada</a></div>
+                          <div class="product-card__stars">
+                            <ul>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star-half-alt"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-card__intro">
+                            <p>Deléitate con esta experiencia gastronómica probando una deliciosa Pizza Small Combinada fusionando cualquiera de tus sabores favoritos.</p>
+                          </div>
+                          <div class="product-card__price"> <span>Precio: </span><span class="value">$30.000</span></div>
+                          <div class="product-card__addcart"> <a class="uk-button uk-button-default uk-width-1-1" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola! Quisiera pedir una Super Pizza Combinada">Comprar<span data-uk-icon="cart"></span></a></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="product-card">
+                        <div class="product-card__media"> <a ><img class="uk-width-1-1" src="assets/img/products/recommend-3.jpg" alt="Samurai Liza Sushi" /></a></div>
+                        <div class="product-card__body">
+                          <div class="product-card__title"> <a >La Especial de la Casa</a></div>
+                          <div class="product-card__stars">
+                            <ul>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star-half-alt"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-card__intro">
+                            <p>Si visitas Ever Pizza, no te puedes perder el plato insignia.
+                              <br>
+                              Ven y aprovecha está maravillosa experiencia
+                            </p>
+                          </div>
+                          <div class="product-card__price"> <span>Precio: </span><span class="value">$25.000</span></div>
+                          <div class="product-card__addcart"> <a class="uk-button uk-button-default uk-width-1-1" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola! Quisiera pedir una Especial de la Casa personal">Add to Cart<span data-uk-icon="cart"></span></a></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="product-card">
+                        <div class="product-card__media"> <a ><img class="uk-width-1-1" src="assets/img/products/recommend-2.png" alt="Tempura Ice Cream" /></a></div>
+                        <div class="product-card__body">
+                          <div class="product-card__title"> <a >La Vegetariana</a></div>
+                          <div class="product-card__stars">
+                            <ul>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star-half-alt"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-card__intro">
+                            <p>Este placer a tu paladar podrá hacerte amar los vegetales.
+                              <br>
+                              Disfruta sin preocuparte por la dieta.
+                            </p>
+                          </div>
+                          <div class="product-card__price"> <span>Precio: </span><span class="value">$25.000</span></div>
+                          <div class="product-card__addcart"> <a class="uk-button uk-button-default uk-width-1-1" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola! Quisiera pedir una Pizza Vegetariana">Comprar<span data-uk-icon="cart"></span></a></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="product-card">
+                        <div class="product-card__media"> <a ><img class="uk-width-1-1" src="assets/img/products/recommend-1.jpg" alt="The Spruce Burger" /></a></div>
+                        <div class="product-card__body">
+                          <div class="product-card__title"> <a >Super Pizza Combinada</a></div>
+                          <div class="product-card__stars">
+                            <ul>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star-half-alt"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-card__intro">
+                            <p>Deléitate con esta experiencia gastronómica probando una deliciosa Pizza Small Combinada fusionando cualquiera de tus sabores favoritos.</p>
+                          </div>
+                          <div class="product-card__price"> <span>Precio: </span><span class="value">$30.000</span></div>
+                          <div class="product-card__addcart"> <a class="uk-button uk-button-default uk-width-1-1" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola! Quisiera pedir una Super Pizza Combinada">Comprar<span data-uk-icon="cart"></span></a></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="product-card">
+                        <div class="product-card__media"> <a ><img class="uk-width-1-1" src="assets/img/products/recommend-3.jpg" alt="Samurai Liza Sushi" /></a></div>
+                        <div class="product-card__body">
+                          <div class="product-card__title"> <a >La Especial de la Casa</a></div>
+                          <div class="product-card__stars">
+                            <ul>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star-half-alt"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-card__intro">
+                            <p>Si visitas Ever Pizza, no te puedes perder el plato insignia.
+                              <br>
+                              Ven y aprovecha está experiencia inolvidable.
+                            </p>
+                          </div>
+                          <div class="product-card__price"> <span>Precio: </span><span class="value">$25.000</span></div>
+                          <div class="product-card__addcart"> <a class="uk-button uk-button-default uk-width-1-1" target:"_blanck" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola! Quisiera pedir una Especial de la Casa personal">Comprar<span data-uk-icon="cart"></span></a></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="product-card">
+                        <div class="product-card__media"> <a ><img class="uk-width-1-1" src="assets/img/products/recommend-2.png" alt="Tempura Ice Cream" /></a></div>
+                        <div class="product-card__body">
+                          <div class="product-card__title"> <a >La Vegetariana</a></div>
+                          <div class="product-card__stars">
+                            <ul>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star"></i></li>
+                              <li><i class="fas fa-star-half-alt"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-card__intro">
+                            <p>Este placer a tu paladar podrá hacerte amar los vegetales.
+                              <br>
+                              Disfruta sin preocuparte por la dieta.
+                            </p>
+                          </div>
+                          <div class="product-card__price"> <span>Precio: </span><span class="value">$25.000</span></div>
+                          <div class="product-card__addcart"> <a class="uk-button uk-button-default uk-width-1-1" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola! Quisiera pedir una Pizza Vegetariana">Comprar<span data-uk-icon="cart"></span></a></div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="uk-visible@l"><a class="uk-position-top-left-out" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a><a class="uk-position-top-right-out" href="#" data-uk-slidenav-next data-uk-slider-item="next"></a></div>
+                <div>
+                  <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-medium-top"></ul>
+                </div>
+              </div>
+            </div>
+            <div class="uk-margin-large-top">
+              <div class="uk-grid uk-grid-medium uk-child-width-1-2@m" data-uk-grid>
+                <div>
+                  <div class="banner-card">
+                    
+                  </div>
+                </div>
+                <div>
+                  <div class="banner-card">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section de combos -->
+      <div class="section-deal-of-the-week">
+        <div class="uk-section uk-container">
+          <div class="section-deal-of-the-week__box">
+            <div class="section-deal-of-the-week__content">
+              <div class="section-title"><span>Oferta de la semana</span>
+                <h3 class="uk-h3">Super WOW Combo</h3>
+              </div>
+              <div class="section-content">
+                <p>Puedes llevarte una pizza más gaseosa : <br>
+                    1 pizza "Large" (Sabor Opcional) <br>
+                    1 gaseosa Postobon 1.5ml
+                </p>
+                <div class="price-item"> <span>Por Solo: </span><span class="value">$37.500</span></div>
+                <div class="uk-margin-medium-top"><a class="uk-button" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera ordenar un WoW Combo"><span>Pedir Ahora!</span><img class="uk-margin-small-left" src="assets/img/icons/ice-cream.svg" alt=""></a></div>
+              </div>
+            </div>
+            <div class="section-deal-of-the-week__media"> <img src="assets/imagenes/si2.png" alt="deal-of-the-week"></div>
+          </div>
+        </div>
+      </div>
+      <div class="section-deal-of-the-week">
+        <div class="uk-section uk-container">
+          <div class="section-deal-of-the-week__box">
+            <div class="section-deal-of-the-week__content">
+              <div class="section-title"><span>Oferta de la semana</span>
+                <h3 class="uk-h3">Single Combo</h3>
+              </div>
+              <div class="section-content">
+                <p>Puedes llevarte una pizza más gaseosa : <br>
+                    1 pizza "Personal" (Sabor Opcional) <br>
+                    1 gaseosa Postobon 400ml
+                </p>
+                <div class="price-item"> <span>Por Solo: </span><span class="value">$22.000</span></div>
+                <div class="uk-margin-medium-top"><a class="uk-button" target="_blanck" href="c"><span>Pedir Ahora!</span><img class="uk-margin-small-left" src="assets/img/icons/ice-cream.svg" alt=""></a></div>
+              </div>
+            </div>
+            <div class="section-deal-of-the-week__media"> <img src="assets/imagenes/si1.png" alt="deal-of-the-week"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin section de Combos -->
+
+      <div class="section-instagram">
+        <div class="uk-container">
+          <div class="section-title section-title--center wave">
+            <h3 class="uk-h3">Síguenos en Instagram</h3>
+          </div>
+        </div>
+        <div class="uk-container-expand">
+          <div class="uk-margin-medium-top" data-uk-slider>
+            <div class="uk-position-relative">
+              <div class="uk-slider-container uk-light">
+                <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-5@l uk-child-width-1-6@xl">
+                  <li><a href="https://www.instagram.com/everpizzas/" target="_blank"><img class="uk-width-1-1" src="assets/imagenes/local/local4.jpg" alt="instagram"></a></li>
+                  <li><a href="https://www.instagram.com/everpizzas/" target="_blank"><img class="uk-width-1-1" src="assets/imagenes/local/local1.jpg" alt="instagram"></a></li>
+                  <li><a href="https://www.instagram.com/everpizzas/" target="_blank"><img class="uk-width-1-1" src="assets/imagenes/local/local5.jpg" alt="instagram"></a></li>
+                  <li><a href="https://www.instagram.com/everpizzas/" target="_blank"><img class="uk-width-1-1" src="assets/imagenes/local/local2.png" alt="instagram"></a></li>
+                  <li><a href="https://www.instagram.com/everpizzas/" target="_blank"><img class="uk-width-1-1" src="assets/imagenes/local/local3.png" alt="instagram"></a></li>
+                  <li><a href="https://www.instagram.com/everpizzas/" target="_blank"><img class="uk-width-1-1" src="assets/imagenes/local/local6.png" alt="instagram"></a></li>
+                </ul>
+              </div>
+              <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-medium-top"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__top">
+        <div class="uk-container">
+          <div class="page-footer__logo">
+            <div class="logo"> <a class="logo__link" href="index.html"><img class="logo__img" src="assets/imagenes/ever_pizza_180.png" alt="logo"></a></div>
+          </div>
+          <div class="page-footer__contacts">
+            <div class="contact-item-box">
+              <div class="contact-item-box__title">Nuestra dirección </div>
+              <div class="contact-item-box__value">Calle 21 B # 16 A 1- 47,<br> Baranoa, Colombia, 057</div>
+            </div>
+            <div class="contact-item-box">
+              <div class="contact-item-box__title">Horario de apertura </div>
+              <div class="contact-item-box__value">Jueves – Domingo: 4:00 PM – 12:00 PM</div>
+            </div>
+            <div class="contact-item-box">
+              <div class="contact-item-box__title">Contactanos </div>
+              <div class="contact-item-box__value">Email: <a href="mailto:everescalante175@gmail.com">everescalante175@gmail.com</a><br> Telefono: <a href="tel:3205448749">301-586-2906</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-footer__middle">
+        <!-- <div class="uk-container">
+          <ul class="uk-navbar-nav">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="page-catalog-sidebar.html">Nuestro Menú</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="page-404.html">404</a></li>
+            <li><a href="page-wishlist.html">Wishlist</a></li>
+            <li><a href="page-blog.html">News</a></li>
+            <li><a href="page-contacts.html">Contact</a></li>
+          </ul>
+        </div> -->
+      </div>
+      <div class="page-footer__bottom">
+        <div class="uk-container">
+          <div class="page-footer__social">
+            <ul class="social">
+              <li class="social-item"><a class="social-link" target="_blank" href="https://web.facebook.com/everescalante175/photos"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="social-item"><a class="social-link" target="_blank" href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola! Quisiera conocer más sobre sus productos"><i class="fab fa-whatsapp"></i></a></li>
+              <li class="social-item"><a class="social-link" target="_blank" href="https://www.instagram.com/everpizzas/"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          <div class="page-footer__copy"><span>© Copyrights 2023 <a href="https://redtecnoparque.com/" > "Tecnoparque" </a>   by <a href="https://github.com/Yisus3090" >Jesus Jaraba</a> Reservados todos los derechos.</span></div>
+
+        </div>
+      </div>
+      
+     <!-- <div id="offcanvas" data-uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar"><button class="uk-offcanvas-close" type="button" data-uk-close=""></button>
+          <div class="uk-margin-top">
+            <ul class="uk-nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="page-blog-article.html">About Spedito</a></li>
+              <li><a href="page-catalog-sidebar.html">Order Online</a></li>
+              <li><a href="page-catalog.html">Our Menu</a></li>
+              <li><a href="page-blog.html">Latest News</a></li>
+              <li><a href="page-contacts.html">Contact us</a></li>
+            </ul>
+          </div>
+          <hr class="uk-margin">
+          <ul class="uk-nav uk-nav-parent-icon" data-uk-nav>
+            <li><a href="page-catalog.html">Burgers</a></li>
+            <li class="uk-parent"><a href="page-catalog.html">Pizzas </a>
+              <ul class="uk-nav-sub">
+                <li><a href="page-product.html">Sriracha Beef</a></li>
+                <li><a href="page-product.html">Garlic Prawn Pizza</a></li>
+                <li><a href="page-product.html">Classic Pepproni</a></li>
+                <li><a href="page-product.html">Pizza Margherita</a></li>
+                <li><a href="page-product.html">Hot n Spicy Pizza</a></li>
+              </ul>
+            </li>
+            <li><a href="page-catalog.html">Noodles</a></li>
+            <li><a href="page-catalog.html">Sushi</a></li>
+            <li><a href="page-catalog.html">Desserts</a></li>
+            <li><a href="page-catalog.html">Salads</a></li>
+            <li><a href="page-catalog.html">Drinks</a></li>
+          </ul>
+          <hr class="uk-margin">
+          <div class="uk-margin-bottom">
+            <div class="block-with-phone"><img src="assets/img/icons/delivery.svg" alt="delivery" data-uk-svg>
+              <div> <span>For Delivery, Call us</span><a href="tel:13205448749">1-320-544-8749</a></div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="uk-modal-full uk-modal" id="modal-full" data-uk-modal>
+        <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" data-uk-height-viewport><button class="uk-modal-close-full" type="button" data-uk-close></button>
+          <form class="uk-search uk-search-large"><input class="uk-search-input uk-text-center" type="search" placeholder="Search..." autofocus></form>
+        </div>
+      </div>
+    </footer>
+  </div>
+<!-- Setcion Boton Flotante de Whatsapp -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=+573007735545&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios." class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>
+<!-- Fin Setcion Boton Flotante de Whatsapp -->
+
+  <script src="assets/js/CambiarPrecios.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/uikit.min.js"></script>
+  <script src="assets/js/uikit-icons.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/fontawesome.all.min.js"></script>
+</body>
+
+</html>
